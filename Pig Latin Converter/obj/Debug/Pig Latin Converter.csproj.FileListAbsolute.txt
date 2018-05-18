@@ -1,0 +1,7 @@
+C:\Users\David\Google Drive\Programming\C#\Pig Latin Converter\Pig Latin Converter\bin\Debug\Pig Latin Converter.exe.config
+C:\Users\David\Google Drive\Programming\C#\Pig Latin Converter\Pig Latin Converter\bin\Debug\Pig Latin Converter.exe
+C:\Users\David\Google Drive\Programming\C#\Pig Latin Converter\Pig Latin Converter\bin\Debug\Pig Latin Converter.pdb
+C:\Users\David\Google Drive\Programming\C#\Pig Latin Converter\Pig Latin Converter\obj\Debug\Pig Latin Converter.exe
+C:\Users\David\Google Drive\Programming\C#\Pig Latin Converter\Pig Latin Converter\obj\Debug\Pig Latin Converter.pdb
+C:\Users\David\Google Drive\Programming\C#\Pig Latin Converter\Pig Latin Converter\obj\Debug\Pig Latin Converter.csproj.CoreCompileInputs.cache
+C:\Users\David\Google Drive\Programming\C#\Pig Latin Converter\Pig Latin Converter\obj\Debug\Pig Latin Converter.csprojAssemblyReference.cache
