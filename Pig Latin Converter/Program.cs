@@ -6,13 +6,9 @@ namespace Pig_Latin_Converter
     {
         static void Main(string[] args)
         {
-            // Variables
-            string userInput;
-            string pigLatinOutput;
-            string statement;
-
+            
             Console.Write("Enter a phrase to convert to Pig Latin:");
-            userInput = Console.ReadLine().ToString();
+            string userInput = Console.ReadLine().ToString();
             ConvertInput(userInput);
             Console.ReadKey();
         }
@@ -22,23 +18,18 @@ namespace Pig_Latin_Converter
             // Split statement into a string array separated by spaces.
             string[] words = statement.Split(' ');
             int wordCount = words.Length;
-            string separator = " ";
             string[] conversionString = new string[words.Length];
             string[] pigLatinPhrase = new string[words.Length];
 
             // Convert each word to Pig Latin.
-            foreach (var item in words)
+            foreach (string item in words)
             {
-                // TODO: create method to convert string to Pig Latin.
+                // Create an English word, convert it to Pig Latin,
+                // then display it on the screen.
+                string englishWord = item.ToString().ToLower();
+                string pigLatinWord = englishWord.Substring(1);
+                Console.Write(pigLatinWord + englishWord.Substring(0,1) + "ay ");
             }
-
-            // Print each word in the console.
-            for (int i = 0; i < wordCount - 1; i++)
-            {
-                Console.Write(words[i] + separator);
-            }
-
-            Console.Write(words[wordCount - 1]);
 
             return statement;
         }
